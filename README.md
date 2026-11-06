@@ -1,4 +1,4 @@
-# Anonymous Review Code: Query-Independent Event-Graph KV Compression
+# Anonymous Review Code: TailMem
 
 This anonymous supplement contains the minimal implementation of **Ours** used in the submitted paper.
 It implements the query-independent KV-retention scorer used during EpiCache

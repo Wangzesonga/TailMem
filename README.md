@@ -2,14 +2,7 @@
 
 This anonymous supplement contains the minimal implementation of **Ours** used in the submitted paper.
 It implements the query-independent KV-retention scorer used during EpiCache
-block prefill.  The release deliberately excludes exploratory V1--V16 variants,
-large result files, model weights, generated caches, and paper-only analysis
-scripts.
-
-The implementation accepts only cached K/V states, original token positions,
-and the native center-patch retention score.  Its API has no question or answer
-argument.  It therefore preserves the paper setting in which future user queries
-are unknown when historical KV caches are compressed.
+block prefill. 
 
 ## What is included
 

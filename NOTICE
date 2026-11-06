@@ -1,0 +1,3 @@
+This release contains the paper's bipartite event graph KV-retention method.
+The integrated experimental pipeline is derived from EpiCache and KVzip.
+See the parent repository README and LICENSE for upstream citations and notices.

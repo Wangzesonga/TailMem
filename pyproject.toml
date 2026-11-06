@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "event-graph-cache"
+version = "1.0.0"
+description = "Minimal reference implementation of query-independent bipartite event graph KV-cache scoring"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = ["torch>=2.3"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
